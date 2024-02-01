@@ -1,5 +1,11 @@
-const NoPage = () => {
-    return <h1>404</h1>;
+function NoPage() {
+    return (
+      <>
+      <div className="container my-3">
+      <h1> Welcome to My Portfolio </h1>
+      </div>
+      </>
+    )
   };
   
   export default NoPage;

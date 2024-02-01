@@ -16,7 +16,29 @@ const Layout = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-        <ul>
+       <Nav.Link href="#action1">
+       <Link to="/">Home</Link>
+       </Nav.Link>
+
+      
+            <Nav.Link href="#action2">
+            <Link to="/blogs">
+              My Work
+              </Link>
+              </Nav.Link>
+
+
+         
+            <Nav.Link href="#action2">
+            <Link to="/contact">
+              Contact
+              </Link>
+              </Nav.Link>
+       
+       
+       
+       
+        {/* <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -26,7 +48,7 @@ const Layout = () => {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
-        </ul>
+        </ul> */}
         </Nav>
         </Navbar.Collapse>
         </Container>

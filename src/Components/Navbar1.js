@@ -21,7 +21,11 @@ export default function Navbar1(props) {
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">{props.aboutText}</Nav.Link>
+            <Nav.Link href="#action2">
+            <Link to="/">
+              {props.aboutText}
+              </Link>
+              </Nav.Link>
             <Nav.Link href="#action3">{props.contact}</Nav.Link>
           </Nav>
           <Form className="d-flex">
